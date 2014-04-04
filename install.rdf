@@ -1,31 +1,38 @@
 <?xml version="1.0"?>
 <RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
-	<Description about="urn:mozilla:install-manifest">
-		<em:id>markdownviewer@thiht.fr</em:id>
-		<em:version>1.3</em:version>
-		<em:type>2</em:type>
+    <Description about="urn:mozilla:install-manifest">
+        <em:id>markdownviewer@wonder365.china</em:id>
+        <em:version>2.0</em:version>
+        <em:type>2</em:type>
 
-		<em:name>Markdown Viewer</em:name>
-		<em:creator>Thiht</em:creator>
-		<em:description>Markdown document viewer.</em:description>
-		<em:iconURL>chrome://markdownviewer/skin/icon32.png</em:iconURL>
+        <em:name>Markdown Viewer</em:name>
+        <em:creator>wonder365</em:creator>
+        <em:description>Markdown document viewer.</em:description>
+        <em:iconURL>chrome://markdownviewer/skin/icon32.png</em:iconURL>
 
-		<em:targetApplication>
-			<Description>
-				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
-				<em:minVersion>4.0</em:minVersion>
-				<em:maxVersion>20.*</em:maxVersion>
-			</Description>
-		</em:targetApplication>
+        <em:targetApplication>
+            <Description>
+                <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+                <em:minVersion>4.0</em:minVersion>
+                <em:maxVersion>20.*</em:maxVersion>
+            </Description>
+        </em:targetApplication>
 
-		<em:localized>
-			<Description>
-				<em:locale>en-US</em:locale>
-				<em:name>Markdown Viewer</em:name>
-				<em:description>Markdown document viewer.</em:description>
-				<em:creator>Thiht</em:creator>
-				<em:translator>Thiht</em:translator>
-			</Description>
-		</em:localized>
-	</Description>
+        <em:localized>
+            <Description>
+                <em:locale>en-US</em:locale>
+                <em:name>Markdown Viewer</em:name>
+                <em:description>Markdown document viewer.</em:description>
+            </Description>
+        </em:localized>
+
+        <em:localized>
+            <Description>
+                <em:locale>zh-CN</em:locale>
+                <em:name>Markdown查看器</em:name>
+                <em:description>在浏览器中查看MarkDown文件.</em:description>
+            </Description>
+        </em:localized>
+
+    </Description>
 </RDF>
