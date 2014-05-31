@@ -8,11 +8,11 @@ Another version of this addon [can be found](https://addons.mozilla.org/fr/firef
 
 # How to build
 
-1. [Download](../archive/master.zip) the repository
+1. [Download](https://github.com/PerfectCarl/markdown-viewer/archive/master.zip) the repository
 2. Zip the content of the repository (the file `install.rdf` must be at the root of your zip)
 3. Delete the folder `binaries`
 3. Open the file in Firefox (Ctrl+O)
 
 # Download the extension from github
 
-[Mardown viewer 2.0](raw/master/binaries/markdown-viewer-2.0.xpi)
+[Mardown viewer 2.0](https://github.com/PerfectCarl/markdown-viewer/raw/master/binaries/markdown-viewer-2.0.xpi)
